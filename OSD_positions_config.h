@@ -9,9 +9,9 @@
 const uint16_t osd_rssi_value_pos = 2049;
 //battery
 const uint16_t osd_main_batt_voltage_pos = 2072;
-const uint16_t osd_avg_cell_voltage_pos = 2104;
+const uint16_t osd_avg_cell_voltage_pos = 234;
 const uint16_t osd_current_draw_pos = 2073;
-const uint16_t osd_mah_drawn_pos = 2138;
+const uint16_t osd_mah_drawn_pos = 2137;
 //flight modes
 const uint16_t osd_flymode_pos = 2209;
 //gps, alt and speed
@@ -31,9 +31,9 @@ const uint16_t osd_numerical_vario_pos = 2330;
 const uint16_t osd_home_dir_pos = 2063;
 const uint16_t osd_home_dist_pos = 2064;
 //Throttle
-const uint16_t osd_roll_pids_pos = 234;
+const uint16_t osd_roll_pids_pos = 2426;
 //wind speed and direction
-const uint16_t osd_craft_name_pos = 234;
+const uint16_t osd_craft_name_pos = 2336;
 
 
 //not implemented or not available
