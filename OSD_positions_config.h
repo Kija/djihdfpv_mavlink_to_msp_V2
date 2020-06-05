@@ -25,25 +25,19 @@ const uint16_t osd_pitch_angle_pos = 2432;
 const uint16_t osd_roll_angle_pos = 2464;
 //crosshair
 const uint16_t osd_crosshairs_pos = 234;
+//variometer
 const uint16_t osd_numerical_vario_pos = 2330;
 //home
 const uint16_t osd_home_dir_pos = 2063;
 const uint16_t osd_home_dist_pos = 2064;
-<<<<<<< HEAD
-
 //Throttle
-const uint16_t osd_pitch_pids_pos = 234;
 const uint16_t osd_roll_pids_pos = 234;
-=======
->>>>>>> ac4e1a0ea39308311ef711956ef28a6d7ecc61e2
-//home position?
-const uint16_t osd_craft_name_pos = 234;
-//Throttle?
-const uint16_t osd_pitch_pids_pos = 234;
 //wind speed and direction
+const uint16_t osd_craft_name_pos = 234;
 
 
 //not implemented or not available
+const uint16_t osd_pitch_pids_pos = 234;
 const uint16_t osd_throttle_pos_pos = 234;
 const uint16_t osd_vtx_channel_pos = 234;
 const uint16_t osd_yaw_pids_pos = 234;
