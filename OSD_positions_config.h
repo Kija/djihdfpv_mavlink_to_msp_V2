@@ -24,14 +24,13 @@ const uint16_t osd_home_dist_pos = 2064;
 
 //Throttle
 const uint16_t osd_pitch_pids_pos = 234;
-
+const uint16_t osd_roll_pids_pos = 234;
 //home position?
 const uint16_t osd_craft_name_pos = 234;
 
 //not implemented or not available
 const uint16_t osd_throttle_pos_pos = 234;
 const uint16_t osd_vtx_channel_pos = 234;
-const uint16_t osd_roll_pids_pos = 234;
 const uint16_t osd_yaw_pids_pos = 234;
 const uint16_t osd_power_pos = 234;
 const uint16_t osd_pidrate_profile_pos = 234;
