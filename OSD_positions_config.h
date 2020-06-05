@@ -4,29 +4,44 @@
 //234 -> not visible. Horizontally 2048-2074(spacing 1), vertically 2048-2528(spacing 32). 26 characters X 15 lines
 
 //currently working elements
+
+//remote
 const uint16_t osd_rssi_value_pos = 2049;
+//battery
+const uint16_t osd_main_batt_voltage_pos = 2072;
 const uint16_t osd_avg_cell_voltage_pos = 2104;
-const uint16_t osd_gps_lon_pos = 2532;
-const uint16_t osd_gps_lat_pos = 2537;
-const uint16_t osd_flymode_pos = 2209;
 const uint16_t osd_current_draw_pos = 2073;
 const uint16_t osd_mah_drawn_pos = 2138;
+//flight modes
+const uint16_t osd_flymode_pos = 2209;
+//gps, alt and speed
+const uint16_t osd_gps_lon_pos = 2532;
+const uint16_t osd_gps_lat_pos = 2537;
+const uint16_t osd_gps_speed_pos = 2272;
 uint16_t osd_gps_sats_pos = 2051;
-const uint16_t osd_main_batt_voltage_pos = 2072;
+const uint16_t osd_altitude_pos = 2297;
+//pitch and roll angles
 const uint16_t osd_pitch_angle_pos = 2432;
 const uint16_t osd_roll_angle_pos = 2464;
+//crosshair
 const uint16_t osd_crosshairs_pos = 234;
 const uint16_t osd_numerical_vario_pos = 2330;
-const uint16_t osd_gps_speed_pos = 2272;
-const uint16_t osd_altitude_pos = 2297;
+//home
 const uint16_t osd_home_dir_pos = 2063;
 const uint16_t osd_home_dist_pos = 2064;
+<<<<<<< HEAD
 
 //Throttle
 const uint16_t osd_pitch_pids_pos = 234;
 const uint16_t osd_roll_pids_pos = 234;
+=======
+>>>>>>> ac4e1a0ea39308311ef711956ef28a6d7ecc61e2
 //home position?
 const uint16_t osd_craft_name_pos = 234;
+//Throttle?
+const uint16_t osd_pitch_pids_pos = 234;
+//wind speed and direction
+
 
 //not implemented or not available
 const uint16_t osd_throttle_pos_pos = 234;
